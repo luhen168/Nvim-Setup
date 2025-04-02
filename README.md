@@ -28,7 +28,11 @@ nvim --version
 https://github.com/Dark-GreenCat/Neovim-Configuration.git
 
 ### Plugin 
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-:PlugInstall
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim <br>
+:PlugInstall <br>
 
 Run nvim
+
+## Issue 
+If run have fail usr/local/
+=> /u/lethanh/.local/nvim/share/
