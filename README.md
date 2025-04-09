@@ -10,7 +10,7 @@ cd neovim
 make CMAKE_BUILD_TYPE=Release
 
 ### Install Newovim locally
-make install
+'''make install
 
 ### Add Neovim to Path in shell
 With .bashrc or .zshrc <br>
