@@ -3,26 +3,32 @@ Setup Nvim in Linux local
 
 ## Install
 ### Download Neovim source code
+```
 git clone https://github.com/neovim/neovim.git <br>
 cd neovim
-
+```
 ### Build Neovim
+```
 make CMAKE_BUILD_TYPE=Release
-
+```
 ### Install Newovim locally
-'''make install
-
+```
+make install
+```
 ### Add Neovim to Path in shell
 With .bashrc or .zshrc <br>
+```
 export PATH=$HOME/neovim/bin:$PATH >> ~/.bashrc <br>
 source ~/.bashrc <br>
-
+```
 With .cshrc 
+```
 set path = ($path $HOME/nvim/bin)
-
+```
 ### Check installation
+```
 nvim --version
-
+```
 ## Setup
 ### Reference github to add config file
 https://github.com/Dark-GreenCat/Neovim-Configuration.git
