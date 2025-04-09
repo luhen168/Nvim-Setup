@@ -1,7 +1,7 @@
 # Nvim-Setup
 Setup Nvim in Linux local
 
-## Install
+## I. Install
 ### Download Neovim source code
 ```
 git clone https://github.com/neovim/neovim.git <br>
@@ -29,7 +29,7 @@ set path = ($path $HOME/nvim/bin)
 ```
 nvim --version
 ```
-## Setup
+## II. Setup
 ### Reference github to add config file
 https://github.com/Dark-GreenCat/Neovim-Configuration.git
 
