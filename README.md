@@ -24,7 +24,7 @@ set path = ($path $HOME/nvim/bin)
 nvim --version
 
 ## Setup
-### Reference to github 
+### Reference github to add config file
 https://github.com/Dark-GreenCat/Neovim-Configuration.git
 
 ### Plugin 
