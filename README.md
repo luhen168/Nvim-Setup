@@ -16,7 +16,7 @@ make CMAKE_BUILD_TYPE=Release
 ```
 make install
 ```
-If have error, open file <br?
+If have error, open file
 ```
 vim build/cmake_install.cmake 
 ```
