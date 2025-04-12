@@ -23,14 +23,15 @@ vim build/cmake_install.cmake
 Change to true directory 
 
 ### Add Neovim to Path in shell
-With .bashrc or .zshrc <br>
+With .bashrc or .cshrc <br>
 ```
-export PATH=$HOME/neovim/bin:$PATH >> ~/.bashrc <br>
-source ~/.bashrc <br>
+export PATH=$HOME/.local/nvim/build/bin:$PATH >> ~/.bashrc
+source ~/.bashrc
 ```
 With .cshrc 
 ```
-set path = ($path $HOME/nvim/bin)
+set path = ($path $HOME/.local/nvim/build/bin) >> ~/.cshrc
+source ~/.cshrc
 ```
 ### Check installation
 ```
@@ -38,7 +39,10 @@ nvim --version
 ```
 ## II. Setup
 ### Reference github to add config file
+```
 https://github.com/Dark-GreenCat/Neovim-Configuration.git
+```
+And add folder to .config with folder name is nvim
 
 ### Plugin 
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim <br>
