@@ -4,7 +4,7 @@ Setup Nvim in Linux local
 ## I. Install
 ### Download Neovim source code
 ```
-git clone https://github.com/neovim/neovim.git <br>
+git clone https://github.com/neovim/neovim.git 
 mv neovim nvim
 cd nvim
 ```
@@ -13,8 +13,9 @@ cd nvim
 make CMAKE_BUILD_TYPE=Release
 ```
 ### Install Newovim locally
+Need to choose path to install (bin) , using make + Tab to see option setup path
 ```
-make install
+make install 
 ```
 If have error, open file
 ```
@@ -45,7 +46,7 @@ https://github.com/Dark-GreenCat/Neovim-Configuration.git
 And add folder to .config with folder name is nvim
 
 ### Plugin 
-curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim <br>
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
 :PlugInstall <br>
 
 Run nvim
