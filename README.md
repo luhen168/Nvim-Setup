@@ -15,6 +15,12 @@ make CMAKE_BUILD_TYPE=Release
 ```
 make install
 ```
+If have error, open file
+```
+vim build/cmake_install.cmake 
+```
+Change to true directory 
+
 ### Add Neovim to Path in shell
 With .bashrc or .zshrc <br>
 ```
@@ -39,6 +45,4 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 
 Run nvim
 
-## Issue 
-If run have fail usr/local/
-=> /u/lethanh/.local/nvim/share/
+
