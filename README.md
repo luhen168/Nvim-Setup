@@ -5,7 +5,8 @@ Setup Nvim in Linux local
 ### Download Neovim source code
 ```
 git clone https://github.com/neovim/neovim.git <br>
-cd neovim
+mv neovim nvim
+cd nvim
 ```
 ### Build Neovim
 ```
@@ -15,7 +16,7 @@ make CMAKE_BUILD_TYPE=Release
 ```
 make install
 ```
-If have error, open file
+If have error, open file <br?
 ```
 vim build/cmake_install.cmake 
 ```
